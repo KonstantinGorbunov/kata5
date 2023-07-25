@@ -12,4 +12,8 @@ public class Island2 {
     public String toString() {
         return ", на острове дерево " + wood.toString();
     }
+
+    public Wood3 getWood() {
+        return wood;
+    }
 }
